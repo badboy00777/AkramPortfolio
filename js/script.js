@@ -4,3 +4,14 @@ const navlinks = document.getElementById("navlinks");
 menuBtn.addEventListener('click', () => {
   navlinks.classList.toggle('show');
 });
+
+// Form Handling 
+
+const form = document.getElementById('contactForm');
+const formMsg = document.getElementById('formMsg');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  formMsg.textContent = "Thanks ! Your Message has been sent .";
+  form.reset();
+});
