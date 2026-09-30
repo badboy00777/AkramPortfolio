@@ -94,3 +94,17 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
+
+.skills_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills_list li {
+  background: var(--light);
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
