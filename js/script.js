@@ -15,3 +15,9 @@ form.addEventListener('submit', (e) => {
   formMsg.textContent = "Thanks ! Your Message has been sent .";
   form.reset();
 });
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('show');
+  });
+});
