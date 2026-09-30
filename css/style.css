@@ -135,3 +135,24 @@ body {
 #education {
   margin-bottom: 0.5rem;
 }
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+#formMsg {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-weight: bold;
+}
