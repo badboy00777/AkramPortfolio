@@ -156,3 +156,40 @@ body {
   color: var(--primary);
   font-weight: bold;
 }
+
+.footer {
+  background: var(--dark);
+  color: #f4f4f9;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: var(--dark);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
